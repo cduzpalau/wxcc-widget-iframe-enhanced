@@ -1,0 +1,30 @@
+{
+  "name": "wxcc-widget-iframe-enhanced",
+  "version": "0.0.1",
+  "description": "Enhanced WxCC iframe webcomponent that allows iframe to communicate with the  WxCC SDK",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cduzpalau/wxcc-widget-iframe-enhanced.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cduzpalau/wxcc-widget-iframe-enhanced/issues"
+  },
+  "homepage": "https://github.com/cduzpalau/wxcc-widget-iframe-enhanced#readme",
+  "dependencies": {
+    "@wxcc-desktop/sdk": "^2.0.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1"
+  }
+}
