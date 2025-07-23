@@ -6,7 +6,7 @@ import { Desktop } from "@wxcc-desktop/sdk";
 
 // Define a logger for debug/info output
 const logger = Desktop.logger.createLogger("wxcc-enhanced-iframe-logger");
-let debugMode = false;
+let debugMode = true;
 
 class IframeWagentSDK extends HTMLElement {
   constructor() {
