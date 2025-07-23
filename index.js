@@ -155,7 +155,7 @@ class IframeWagentSDK extends HTMLElement {
       const wrapupCodeId = this._pendingWrapups.get(interactionId);
       if (wrapupCodeId) {
         logger.info(
-          `Interaction ${interactionId} entered Wrapup state via event. Attempting to apply wrap-up code: ${wrapupCodeId}`
+          `Interaction ${interactionId} entered Wrapup state via event.Attempting to apply wrap-up code: ${wrapupCodeId}`
         );
         await this._applyWrapupCode(interactionId, wrapupCodeId);
       } else {
