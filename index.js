@@ -5,7 +5,7 @@ const VERSION = "1.1.4"; // Incremented version for this review
 import { Desktop } from "@wxcc-desktop/sdk";
 
 // Define a logger for debug/info output
-const logger = Desktop.logger.createLogger("AGENTSDK-widget-logger");
+const logger = Desktop.logger.createLogger("wxcc-enhanced-iframe-logger");
 let debugMode = false;
 
 class IframeWagentSDK extends HTMLElement {
